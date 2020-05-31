@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/linux_parser.h
+fstream
+-
+regex
+-
+string
+-
+
+../include/process.h
+string
+-
+
+../include/processor.h
+vector
+-
+
+/home/workspace/solution-2nd-Udacity-Project/src/process.cpp
+unistd.h
+-
+cctype
+-
+sstream
+-
+string
+-
+vector
+-
+process.h
+/home/workspace/solution-2nd-Udacity-Project/src/process.h
+linux_parser.h
+/home/workspace/solution-2nd-Udacity-Project/src/linux_parser.h
+processor.h
+/home/workspace/solution-2nd-Udacity-Project/src/processor.h
+

@@ -1,0 +1,3 @@
+/home/workspace/solution-2nd-Udacity-Project/build/CMakeFiles/rebuild_cache.dir
+/home/workspace/solution-2nd-Udacity-Project/build/CMakeFiles/monitor.dir
+/home/workspace/solution-2nd-Udacity-Project/build/CMakeFiles/edit_cache.dir
